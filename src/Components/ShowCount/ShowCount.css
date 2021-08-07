@@ -1,0 +1,11 @@
+.showCount {
+    height: 50%;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid lightgrey;
+}
+.countText {
+    font-size: 30px;
+}

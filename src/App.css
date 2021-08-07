@@ -1,0 +1,50 @@
+#root {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 789px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  background-color: #919ab8;
+  height: 100%;
+
+}
+.counters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rightSide {
+  background-color: #e9ebf2;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 2px 2px 5px grey,
+  2px 2px 5px grey;
+}
+.counters {
+  height: 50%;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+.link:hover {
+  font-size: 33px;
+}
+.link-active {
+  color: #277d3a;
+}
